@@ -3,7 +3,7 @@ from browser import document, html, window
 elements = []
 
 def add(obj):
-    document <= obj.el
+    document["game-container"] <= obj.el
 
 def add_key_down_handler(func):
     def handler(ev):

@@ -27,8 +27,6 @@ game_over = False
 grid_squares = [] 
 grid_labels = []
 
-print(word_to_guess)
-
 #UI Setup
 bg = Rectangle(400, 500)
 bg.set_color(COLOR_BG)
